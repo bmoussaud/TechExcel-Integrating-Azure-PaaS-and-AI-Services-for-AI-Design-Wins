@@ -76,5 +76,5 @@ jobs:
 
     - uses: azure/webapps-deploy@v2
       with:
-        app-name: 'm3hwlbiw466g4cosureg-api'
+        app-name: m3hwlbiw466g4-api
         images: m3hwlbiw466g4cosureg.azurecr.io/techexcel/csapi:${{github.run_number}}
